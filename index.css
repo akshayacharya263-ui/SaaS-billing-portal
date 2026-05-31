@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    padding:0;
+    background:#020617;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+/* Main */
+
+.dashboard{
+    min-height:100vh;
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Navbar */
+
+.navbar{
+    width:100%;
+    max-width:1200px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:50px;
+}
+
+.logo{
+    color:#38bdf8;
+    font-size:32px;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    color:#cbd5e1;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.hero h1{
+    font-size:55px;
+}
+
+.hero p{
+    color:#94a3b8;
+    font-size:18px;
+}
+
+/* Cards */
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    width:100%;
+    flex-wrap:wrap;
+}
+
+/* Card */
+
+.card{
+    background:#0f172a;
+    width:300px;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    border:1px solid #1e293b;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+}
+
+/* Price */
+
+.price{
+    font-size:45px;
+    margin:20px 0;
+}
+
+/* Features */
+
+.features{
+    color:#cbd5e1;
+    line-height:35px;
+    margin-bottom:30px;
+}
+
+/* Button */
+
+.buy-btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+}
